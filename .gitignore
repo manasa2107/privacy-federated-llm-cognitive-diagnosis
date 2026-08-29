@@ -8,3 +8,5 @@ checkpoints_*/
 .DS_Store
 *.out
 *.err
+*.npy
+baselines_cdm/results/
