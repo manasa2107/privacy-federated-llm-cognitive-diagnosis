@@ -56,37 +56,39 @@ Download and place in the `data/` directory:
 | UCI Student Performance | [UCI ML Repository](https://archive.ics.uci.edu/dataset/320/student+performance) | `student-por.csv` |
 
 ## Repository Structure
+
+```
 ├── src/
-│ ├── federated_simple.py # Core federated framework
-│ ├── federated_local_dp.py # Local differential privacy
-│ ├── simple_llm.py # Single LLM baseline
-│ ├── run_experiments_assist09.py # ASSIST09 experiments
-│ ├── run_experiments_gsm8k.py # GSM8K experiments
-│ ├── run_experiments_uci_student.py# UCI experiments
-│ ├── run_experiments_privacy.py # Privacy tradeoff analysis
-│ ├── run_experiments.py # Main experiment runner
-│ ├── run_dp_fl_homogeneous.py # DP-FL homogeneous baseline
-│ ├── run_individual_llm_mae.py # Per-model MAE analysis
-│ ├── run_new_baselines.py # Additional baselines
-│ ├── run_assist09_full.py # Full ASSIST09 dataset
-│ ├── run_gsm8k_full.py # Full GSM8K dataset
-│ └── run_uci_full.py # Full UCI dataset
+│   ├── federated_simple.py
+│   ├── federated_local_dp.py
+│   ├── simple_llm.py
+│   ├── run_experiments_assist09.py
+│   ├── run_experiments_gsm8k.py
+│   ├── run_experiments_uci_student.py
+│   ├── run_experiments_privacy.py
+│   ├── run_experiments.py
+│   ├── run_dp_fl_homogeneous.py
+│   ├── run_individual_llm_mae.py
+│   ├── run_new_baselines.py
+│   ├── run_assist09_full.py
+│   ├── run_gsm8k_full.py
+│   └── run_uci_full.py
 ├── scripts/
-│ ├── run_assist09_job.sh # SLURM: ASSIST09
-│ ├── run_gsm8k_job.sh # SLURM: GSM8K
-│ ├── run_uci_job.sh # SLURM: UCI
-│ ├── run_privacy_job.sh # SLURM: Privacy analysis
-│ └── setup_env.sh # Environment setup
+│   ├── run_assist09_job.sh
+│   ├── run_gsm8k_job.sh
+│   ├── run_uci_job.sh
+│   ├── run_privacy_job.sh
+│   └── setup_env.sh
 ├── baselines_cdm/
-│ ├── irt_dina_models.py # IRT and DINA baselines
-│ ├── neuralcd_model.py # NeuralCD baseline
-│ └── run_baseline_comparison.py # Baseline comparison
+│   ├── irt_dina_models.py
+│   ├── neuralcd_model.py
+│   └── run_baseline_comparison.py
 ├── data/
-│ └── sample/README.md # Dataset download instructions
+│   └── sample/README.md
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 
 ## Running Experiments
 
