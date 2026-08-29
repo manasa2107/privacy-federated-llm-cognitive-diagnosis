@@ -1,0 +1,10 @@
+.env
+*.env
+__pycache__/
+*.pyc
+*.csv
+*.pkl
+checkpoints_*/
+.DS_Store
+*.out
+*.err

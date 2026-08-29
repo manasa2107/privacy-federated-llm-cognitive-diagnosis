@@ -1,0 +1,13 @@
+{
+  "n_students": 4217,
+  "n_questions": 26688,
+  "n_responses": 343525,
+  "n_concepts": 4,
+  "concepts": [
+    "Equations",
+    "Percentages",
+    "Integers",
+    "Conversions"
+  ],
+  "avg_correct_rate": 0.6442791645440652
+}
