@@ -10,3 +10,7 @@ checkpoints_*/
 *.err
 *.npy
 baselines_cdm/results/
+*.npy
+*.pth
+logs/
+__pycache__/
