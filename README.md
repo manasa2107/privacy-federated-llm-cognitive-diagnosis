@@ -52,7 +52,7 @@ Download and place in the `data/` directory:
 | Dataset | Source | File |
 |---------|--------|------|
 | ASSIST09 | [ASSISTments](https://sites.google.com/site/assistmentsdata/) | `skill_builder_data.csv` |
-| GSM8K | [HuggingFace](https://huggingface.co/datasets/gsm8k) | `gsm8k_test.jsonl` |
+| GSM8K    | [HuggingFace](https://huggingface.co/datasets/openai/gsm8k) | `gsm8k_test.jsonl` |
 | UCI Student Performance | [UCI ML Repository](https://archive.ics.uci.edu/dataset/320/student+performance) | `student-por.csv` |
 
 ## Repository Structure
