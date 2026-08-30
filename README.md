@@ -82,14 +82,22 @@ Download and place in the `data/` directory:
 ├── baselines_cdm/
 │   ├── irt_dina_models.py
 │   ├── neuralcd_model.py
-│   └── run_baseline_comparison.py
+│   ├── run_baseline_comparison.py
+│   ├── run_neuralcd_only.py
+│   ├── prepare_assist09_data.py
+│   ├── prepare_assist09_custom.py
+│   ├── prepare_full_assist09.py
+│   ├── run_baseline_job.slurm
+│   └── data/
+│       └── metadata.json
 ├── data/
-│   └── sample/README.md
-├── requirements.txt
+│   └── sample/
+│       └── README.md              # Dataset download instructions
+├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── requirements.txt
 ```
-
 ## Running Experiments
 
 ```bash
